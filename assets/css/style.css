@@ -12,26 +12,25 @@ body {
 }
 
 /* Header */
-/* Removed header classes */
 
-header {
+.header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-header h1 {
+.header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-header h1 .seo {
+.header h1 .seo {
     color: #d9dcd6;
 }
 
 /* changed header div's to nav's */
-header nav {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -39,11 +38,11 @@ header nav {
     font-size: 20px;
 }
 
-header nav ul {
+.header nav ul {
     list-style-type: none;
 }
 
-header ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -145,15 +144,14 @@ main {
 }
 
 /*Footer*/
-/* Removed Footer class */
 
-footer {
+.footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-footer h2 {
+.footer h2 {
     font-size: 20px;
 }
